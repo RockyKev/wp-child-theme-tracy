@@ -1,0 +1,81 @@
+/*
+Theme Name: Tracy
+description: For Tracy
+Author: RK
+Template: twentytwenty
+Version: 1.0.0
+*/
+
+.bbj-landing {
+    /* background-color: green; */
+    width: min(1000px, calc(70% + 100px));
+    margin: 0px auto;
+}
+
+.bbj-landing .header-footer-group {
+    display: none;
+}
+
+.bbj-landing {
+    background-color: white;
+}
+
+.bbj-landing .entire-page {
+    padding: 27px;
+}
+
+.bbj-landing .bbj-menu {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.bbj-menu .menu {
+    margin: 0;
+    display: flex;
+}
+
+.bbj-menu .menu-item {
+    list-style: none;
+    margin: 0.75rem 0 0.5rem;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+.bbj-menu .menu-item:first-of-type {
+    padding: 0 1rem 0 0;
+}
+.bbj-menu .menu-item:last-of-type {
+    padding: 0 0 0 1rem;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .bbj-landing {
+        margin: 100px auto;
+    }
+
+    .bbj-landing .entire-page {
+        padding: 54px 108px;
+    }
+    
+  }
+
+/* body.page-template-bbj-template {
+    background-color: red !important;
+}
+
+.site-name {
+    font-size: 80px;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+h2 {
+    font-size: 120px;
+}
+
+#page {
+    border: 2px solid blue;
+} */
