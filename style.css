@@ -3,7 +3,7 @@ Theme Name: Tracy
 description: For Tracy
 Author: RK
 Template: twentytwenty
-Version: 1.0.0
+Version: 1.1.0
 */
 
 .bbj-landing {
@@ -25,29 +25,42 @@ Version: 1.0.0
 }
 
 .bbj-landing .bbj-menu {
-    border-top: 2px solid red;
-    border-bottom: 2px solid red;
-}
-
-.bbj-menu .menu {
-    margin: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     display: flex;
 }
 
-.bbj-menu .menu-item {
+.bbj-menu .menu {
+    width: 100%;
+}
+
+.bbj-menu .menu ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 100%;
+}
+
+.bbj-menu .menu ul li {
     list-style: none;
     margin: 0.75rem 0 0.5rem;
-    font-size: 1.5rem;
     padding: 0 1rem;
 }
 
-.bbj-menu .menu-item:first-of-type {
+.bbj-menu .menu ul li:first-of-type {
     padding: 0 1rem 0 0;
 }
-.bbj-menu .menu-item:last-of-type {
+.bbj-menu .menu ul li:last-of-type {
     padding: 0 0 0 1rem;
 }
 
+.bbj-landing a {
+    text-decoration: none;
+}
+
+.bbj-landing a:hover {
+    font-weight: bold;
+}
 
 @media only screen and (min-width: 700px) {
     .bbj-landing {
